@@ -2,27 +2,27 @@
 <Gestures>
   <Gesture>
     <ID>0</ID>
-    <NAME>accept</NAME>
-    <SEMANTIC>accept</SEMANTIC>
+    <NAME>clapping</NAME>
+    <SEMANTIC>clapping</SEMANTIC>
   </Gesture>
   <Gesture>
     <ID>1</ID>
-    <NAME>clap</NAME>
-    <SEMANTIC>clap</SEMANTIC>
+    <NAME>draw</NAME>
+    <SEMANTIC>draw</SEMANTIC>
   </Gesture>
   <Gesture>
     <ID>2</ID>
-    <NAME>giveup</NAME>
-    <SEMANTIC>giveup</SEMANTIC>
+    <NAME>reject</NAME>
+    <SEMANTIC>reject</SEMANTIC>
   </Gesture>
   <Gesture>
     <ID>3</ID>
-    <NAME>refuse</NAME>
-    <SEMANTIC>refuse</SEMANTIC>
+    <NAME>resign</NAME>
+    <SEMANTIC>resign</SEMANTIC>
   </Gesture>
   <Gesture>
     <ID>4</ID>
-    <NAME>takeback</NAME>
-    <SEMANTIC>takeback</SEMANTIC>
+    <NAME>sit</NAME>
+    <SEMANTIC>sit</SEMANTIC>
   </Gesture>
 </Gestures>

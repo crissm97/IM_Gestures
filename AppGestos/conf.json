@@ -2,5 +2,5 @@
 	"address": "localhost",
 	"port": 8000,
 	"Uid": "User1",
-	"conficence":0.1
+	"conficence":0.3
 }

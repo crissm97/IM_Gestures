@@ -5,9 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppGui"
         mc:Ignorable="d"
-        Title="MainWindow" Height="199.682" Width="240.116">
+        Title="MainWindow" Height="650" Width="1000">
     <Grid Margin="0,10,-6.4,0.2">
         <StackPanel Orientation="Horizontal" Margin="10"/>
-        <TextBlock Margin="0,0,0,136.2" Text="Assistente de Xadrez"/>
+        <MediaElement Name="myMediaElement" >
+            <MediaElement.Triggers>
+                <EventTrigger RoutedEvent="MediaElement.Loaded">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+
+                                <!-- The MediaTimeline has a RepeatBehavior="Forever" which makes the media play
+                     over and over indefinitely.-->
+                                <MediaTimeline Source="C:\Users\Guilherme\Desktop\IM\proj2\AppGui\help.mp4" Storyboard.TargetName="myMediaElement"  
+                 RepeatBehavior="Forever" />
+
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </MediaElement.Triggers>
+        </MediaElement>
+
     </Grid>
 </Window>
