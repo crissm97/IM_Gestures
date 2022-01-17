@@ -165,3 +165,5 @@ C:\Users\Guilherme\Desktop\IM\proj2\AppGui\AppGui\obj\Debug\AppGui.csproj.Genera
 C:\Users\Guilherme\Desktop\IM\proj2\AppGui\AppGui\obj\Debug\AppGui.csproj.CoreCompileInputs.cache
 C:\Users\Guilherme\Desktop\IM\proj2\AppGui\AppGui\obj\Debug\AppGui.exe
 C:\Users\Guilherme\Desktop\IM\proj2\AppGui\AppGui\obj\Debug\AppGui.pdb
+C:\Users\Guilherme\Desktop\IM\proj2\AppGui\AppGui\obj\Debug\AppGui_Content.g.cs
+C:\Users\Guilherme\Desktop\IM\proj2\AppGui\AppGui\bin\Debug\video\help.mp4

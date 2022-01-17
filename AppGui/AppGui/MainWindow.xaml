@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppGui"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="1000">
+        Title="Assistente de Xadrez - Gestos" Height="550" Width="900">
     <Grid Margin="0,10,-6.4,0.2">
         <StackPanel Orientation="Horizontal" Margin="10"/>
         <MediaElement Name="myMediaElement" >
@@ -14,12 +14,7 @@
                     <EventTrigger.Actions>
                         <BeginStoryboard>
                             <Storyboard>
-
-                                <!-- The MediaTimeline has a RepeatBehavior="Forever" which makes the media play
-                     over and over indefinitely.-->
-                                <MediaTimeline Source="C:\Users\Guilherme\Desktop\IM\proj2\AppGui\help.mp4" Storyboard.TargetName="myMediaElement"  
-                 RepeatBehavior="Forever" />
-
+                                <MediaTimeline Source="video\help.mp4" Storyboard.TargetName="myMediaElement"  RepeatBehavior="Forever" />
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger.Actions>
